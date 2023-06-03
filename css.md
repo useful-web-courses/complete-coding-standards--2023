@@ -38,86 +38,52 @@ Example:
 
 ## Order of stylesheet
 
-### elements
-
-### part--*
-
-### component--*
-
-### container--*
-
-### section--*
-
-### media queries
+1. :root
+2. elements
+3. part--*
+4. component--*
+5. container--*
+6. section--*
+7. media queries
 
 Example:
 ```HTML
 <style>
-    :root {
-        
-    }
+    :root {}
     
     /***************/
     
-    h1 {
-        
-    }
+    h1 {}
     
-    h2 {
-        
-    }
+    h2 {}
     
-    p {
-        
-    }
+    p {}
     
-    a {
-        
-    }
+    a {}
     
     /***************/
     
-    .part--product-info {
-        
-    }
+    .part--product-info {}
     
-    .component--product-card {
-        
-    }
+    .component--product-card {}
     
-    .container--product-cards {
-        
-    }
+    .container--product-cards {}
     
-    .section--products {
-        
-    }
+    .section--products {}
     
-    @media only screen and (max-width: 512px) {
-        
-    }
+    @media only screen and (max-width: 512px) {}
     
     /***************/
     
-    .part--contact-info {
-        
-    }
+    .part--contact-info {}
     
-    .component--contact-card {
-        
-    }
+    .component--contact-card {}
     
-    .container--contact-info {
-        
-    }
+    .container--contact-info {}
     
-    .section--contact-info {
-        
-    }
+    .section--contact-info {}
     
-    @media only screen and (max-width: 512px) {
-        
-    }
+    @media only screen and (max-width: 512px) {}
     
     /***************/
 </style>
