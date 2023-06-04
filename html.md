@@ -11,6 +11,12 @@ Examples:
 
 # Code structure
 
+Rules
+- Always put tags in the head in alphabetical order
+- Always put the attributes in alphabetical order everywhere
+- Clump similar tags together
+- Add a space between tags if there is more than one in a surrounding tag
+
 ### section--*
 can have these inside of it:
 - container--*

@@ -13,6 +13,7 @@ Examples:
 
 Rules for every file:
 - Should have a namespace (except for index.php where the autoloader is initialised)
+- Autolading should always be used to include functionality, no manual require, require_once, include or include once.
 - Strict type checking should be enabled
 - No functional code should be written, all class based
 - Primitive types (string, int, float, ...) are only allowed to be used for "Value objects", for example: personal_number class
